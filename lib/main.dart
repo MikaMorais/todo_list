@@ -6,7 +6,7 @@ void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     title: 'Lista de Tarefas',
-    //home: Home(),
+    home: Home(),
     themeMode: ThemeMode.system,
     theme: lightTheme(),
     darkTheme: darkTheme(),
