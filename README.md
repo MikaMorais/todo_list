@@ -1,16 +1,29 @@
-# tarefas_todo_list
+# ToDo List
+Um projeto Flutter em Dart onde se foi criado uma
 
-A new Flutter project.
+## Tecnologias
 
-## Getting Started
+* Dart
+* Flutter
 
-This project is a starting point for a Flutter application.
+## Funcionalidades
+* Inserir: 
+  * Insira uma tarefa a ser realizada no campo informado
+  * Aviso nota não pode ser vazia
 
-A few resources to get you started if this is your first Flutter project:
+* Salvar:
+  * A tarefa sera salva e automaticamente alocada logo abaixo em uma lista
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+* Checked(Concluída):
+  * Marcar o check ao lado da tarefa para sinalizar como concluída
+  * Após marcar o item como "checked" e atualizar o app os items "checked" são movidos para abaixo dos "unchecked"
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Unchecked(Não concluída):
+  * Retirar o check ao lado da tarefa para sinalizar que não foi concluída
+
+* Excluir:
+  * Excluir a uma tarefa ao arrastar a mesma da direita para esquerda até sinalizar o simbolo de uma lixeira(denominando a exclusão)
+  * Aviso pós exclusão do item se deseja desfazer a ação
+
+## Layout
+<img src = "ToDoList_img/main.PNG" width ="200" /> <img src = "ToDoList_img/aviso_nota_vazia.png" width ="200" /> <img src = "ToDoList_img/tarefas_inseridas.PNG" width ="200" /> <img src = "ToDoList_img/checked.PNG" width ="200" /> <img src = "ToDoList_img/atualizar.png" width ="200" /> <img src = "ToDoList_img/apos_atualizar.PNG" width ="200" /> <img src = "ToDoList_img/excluindo.png" width ="200" /> <img src = "ToDoList_img/aviso_desfazer_exclusao.png" width ="200" /> 
