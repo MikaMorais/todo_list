@@ -1,5 +1,5 @@
 # ToDo List
-Um projeto Flutter em Dart onde se foi criado uma
+Um projeto Flutter em Dart onde se foi criado uma app to do List (lista de tarefas)
 
 ## Tecnologias
 
